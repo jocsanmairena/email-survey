@@ -13,7 +13,8 @@ passport.use(
 			clientSecret: process.env.GOOGLE_CLIENT_SECRET,
 			//clientID: keys.googleClientID,
 			//clientSecret: keys.googleClientSecret,
-			callbackURL: '/auth/google/callback'
+			callbackURL: '/auth/google/callback',
+			proxy: true
 		},
 		(accessToken, refreshToken, profile, done) => {
 			//This query attends to find one record in the
