@@ -1,0 +1,9 @@
+ps aux | grep node
+
+
+How to push to the repository?
+git add .
+git push --all  https://git.heroku.com/ancient-app.git
+
+How to run dev server?
+npm start dev
