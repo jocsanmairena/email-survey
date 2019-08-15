@@ -37,5 +37,5 @@ mongoose.connect(process.env.MONGO_DB_URI, {
 //which we pass the app const in the file as argument
 authRoutes(app);
 app.listen(PORT, () => {
-	console.log('Server running on port ' + PORT);
+	console.log('Node Server running on port ' + PORT);
 });
